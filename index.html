@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chatbot UTT</title>
+
+    <!-- Kết nối file CSS -->
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+
+    <!-- PHẦN ĐẦU TRANG -->
+    <header>
+        <h2>CHATBOT UTT</h2>
+
+        <nav>
+            <a href="#home">Trang chủ</a>
+            <a href="#chatbot">Chatbot</a>
+            <a href="#thongtin">Thông tin</a>
+        </nav>
+    </header>
+
+    <!-- TRANG CHỦ -->
+    <section id="home">
+        <h1>Xin chào! Tôi là Chatbot UTT</h1>
+
+        <p>
+            Trợ lý hỗ trợ tra cứu thông tin tuyển sinh,
+            học phí và học bổng dành cho sinh viên.
+        </p>
+
+        <a href="#chatbot">Bắt đầu trò chuyện</a>
+    </section>
+
+    <!-- KHU VỰC CHATBOT -->
+    <section id="chatbot">
+
+        <h2>Trò chuyện với Chatbot UTT</h2>
+
+        <div id="chatMessages">
+
+            <div class="message bot-message">
+                Xin chào! Bạn muốn tìm hiểu thông tin gì về UTT?
+            </div>
+
+        </div>
+
+        <div class="chat-input">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Nhập câu hỏi của bạn..."
+            >
+
+            <button id="sendButton" onclick="sendMessage()">
+                Gửi
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- THÔNG TIN -->
+    <section id="thongtin">
+
+        <h2>Thông tin sinh viên</h2>
+
+        <div>
+            <h3>🎓 Tuyển sinh</h3>
+            <p>Tra cứu thông tin tuyển sinh.</p>
+        </div>
+
+        <div>
+            <h3>💰 Học phí</h3>
+            <p>Tra cứu thông tin học phí.</p>
+        </div>
+
+        <div>
+            <h3>🏆 Học bổng</h3>
+            <p>Tra cứu thông tin học bổng.</p>
+        </div>
+
+    </section>
+
+    <!-- CHÂN TRANG -->
+    <footer>
+        <p>CHATBOT UTT - Hệ thống hỗ trợ sinh viên</p>
+    </footer>
+
+    <!-- Kết nối file JavaScript -->
+    <script src="../static/script.js"></script>
+
+</body>
+</html>
